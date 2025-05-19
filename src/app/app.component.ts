@@ -7,7 +7,7 @@ import { AerolineaComponent } from "./aerolinea/aerolinea.component";
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
-  imports: [AerolineaList2Component, AerolineaList1Component, AerolineaComponent]
+  imports: [AerolineaList1Component, AerolineaList2Component]
 })
 export class AppComponent {
   title = 'mynewapp';
